@@ -9,11 +9,12 @@
 </head>
 <body>
     <div class="container"> 
-        <nav>
+       
+        <nav class="sidebar">
             <div class="nav-logo">
                 <i class="fa-brands fa-spotify"></i>
             </div>
-        </nav>
+        
         <div class="nav-library">
             <i class="fa-solid fa-book"></i>
             <p>Sua Blibioteca +</p>
@@ -40,13 +41,18 @@
             <i class="fa-solid fa-globe"></i>
             Português do Brasil
         </button>
+    </nav>
         <main>
             <header class="search-bar">
                 <i class="fa-solid fa-magnifying-glass"></i>
                 <input placeholder="O que você quer ouvir?">
             </header>
-            <section>
+            <section class="content">
+                <h2>Artistas Populares</h2>
+                <div class="artists-grid"></div>
                 
+                <h2>Artistas Populares</h2>
+                <div class="albums-grid"></div>
             </section>
         </main>
 
